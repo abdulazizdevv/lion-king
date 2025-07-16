@@ -6,7 +6,6 @@ import {
   Container,
   Heading,
   HStack,
-  Image,
   Link,
   Span,
   Stack,
