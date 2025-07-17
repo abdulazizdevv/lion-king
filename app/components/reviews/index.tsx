@@ -7,19 +7,19 @@ import { keyframes } from '@emotion/react';
 const testimonials = [
   {
     id: 1,
-    name: 'ANDREW',
+    name: 'JOHN',
     review:
       'Smooth process from start to finish. I got real-time updates and my package arrived earlier than expected. LION KING never fails.',
   },
   {
     id: 2,
-    name: 'SOFIA',
+    name: 'ANNA',
     review:
       'Loved how easy it was to schedule my delivery. They even confirmed the time by phone — super professional team!',
   },
   {
     id: 3,
-    name: 'ABDULRAHMAN',
+    name: 'JASUR',
     review:
       'The service is top notch. My shipments arrive on time, even when they go through several countries. LION KING is a reliable partner.',
   },
@@ -37,7 +37,7 @@ const testimonials = [
   },
   {
     id: 6,
-    name: 'JULIA',
+    name: 'LIZA',
     review:
       'Every time I contact LION KING, the staff is super kind and helpful. I feel like they really care. Love this level of service!',
   },

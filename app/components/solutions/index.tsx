@@ -1,11 +1,4 @@
-import {
-  Box,
-  Center,
-  Container,
-  Image,
-  SimpleGrid,
-  Text,
-} from '@chakra-ui/react';
+import { Center, Container, Image, SimpleGrid, Text } from '@chakra-ui/react';
 import React from 'react';
 
 const solutionsCard = [
