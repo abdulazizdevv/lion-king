@@ -57,18 +57,25 @@ function Partners() {
         </Flex>
 
         <VStack gap={12} px={4} position='relative' zIndex={1}>
-          <Box w='full' rounded='2.5rem' position='relative'>
+          <Box
+            w='full'
+            border={'1px solid orange'}
+            rounded='2.5rem'
+            position='relative'
+          >
             <Box
               w={'full'}
               zIndex={99}
               rounded={{ base: 10, lg: 40 }}
-              bg={'primary.600'}
+              bg={'light'}
             >
               <Image
                 w={{ base: 'full', xl: '1360px' }}
-                h={{ base: 'full', xl: '986px' }}
-                src={'/icons/all_partners.svg'}
+                h={{ base: 'full', xl: '886px' }}
+                src={'/amazon-logistics-logo.webp'}
                 alt='all-partners'
+                objectFit={'contain'}
+                px={8}
               />
             </Box>
           </Box>

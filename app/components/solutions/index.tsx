@@ -76,16 +76,14 @@ function Solutions() {
           );
         })}
       </SimpleGrid>
-      <Box border={'1px solid orange'} rounded={20} overflow={'hidden'}>
-        <Image
-          w={'full'}
-          px={8}
-          maxH={'500px'}
-          src={'/amazon-logistics-logo.webp'}
-          objectFit={'cover'}
-          alt='logo-card'
-        />
-      </Box>
+      <Image
+        w={'full'}
+        px={8}
+        maxH={'500px'}
+        src={'/lion-king.jpg'}
+        objectFit={'cover'}
+        alt='logo-card'
+      />
     </Container>
   );
 }

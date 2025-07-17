@@ -9,7 +9,7 @@ const testimonials = [
     id: 1,
     name: 'ANDREW',
     review:
-      'Smooth process from start to finish. I got real-time updates and my package arrived earlier than expected. GFS never fails.',
+      'Smooth process from start to finish. I got real-time updates and my package arrived earlier than expected. LION KING never fails.',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const testimonials = [
     id: 3,
     name: 'ABDULRAHMAN',
     review:
-      'The service is top notch. My shipments arrive on time, even when they go through several countries. GFS is a reliable partner.',
+      'The service is top notch. My shipments arrive on time, even when they go through several countries. LION KING is a reliable partner.',
   },
   {
     id: 4,
@@ -33,13 +33,13 @@ const testimonials = [
     id: 5,
     name: 'FAZLIDDIN',
     review:
-      'The support team speaks clearly and answers with respect. Everything was arranged fast, and delivery came on time. I trust GFS with no doubts!',
+      'The support team speaks clearly and answers with respect. Everything was arranged fast, and delivery came on time. I trust LION KING with no doubts!',
   },
   {
     id: 6,
     name: 'JULIA',
     review:
-      'Every time I contact GFS, the staff is super kind and helpful. I feel like they really care. Love this level of service!',
+      'Every time I contact LION KING, the staff is super kind and helpful. I feel like they really care. Love this level of service!',
   },
 ];
 
@@ -72,8 +72,8 @@ function Reviews() {
           maxW={'787px'}
           fontSize={{ base: 11, lg: 25 }}
         >
-          Discover why businesses trust GFS for reliable and efficient logistics
-          solutions worldwide.
+          Discover why businesses trust LION KING for reliable and efficient
+          logistics solutions worldwide.
         </Text>
       </Container>
       <Box

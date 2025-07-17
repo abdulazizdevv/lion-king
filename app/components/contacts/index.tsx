@@ -55,8 +55,8 @@ function Contacts() {
         mx={'auto'}
       >
         If you have any questions about delivery, partnership, or want to learn
-        more about our logistics services — feel free to reach out. The GFS team
-        is always here to help!
+        more about our logistics services — feel free to reach out. The LION
+        KING team is always here to help!
       </Text>
       <Box
         mt={{ base: '25px', lg: '40px' }}

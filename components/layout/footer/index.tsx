@@ -166,7 +166,7 @@ export default function Footer() {
           w={'full'}
           display={{ base: 'none', lg: 'flex' }}
         >
-          <Text color={'red'}>© 2025 Gfs-Groupllc. All Rights Reserved.</Text>
+          <Text color={'red'}>© 2025 Lion-king. All Rights Reserved.</Text>
           <Link color={'red'}>Terms of Service</Link>
           <Link color={'red'}>Privacy Policy</Link>
         </HStack>
@@ -205,7 +205,7 @@ export default function Footer() {
               </Link>
             </HStack>
             <Text fontSize={10} color={'red'}>
-              © 2025 Gfs-Groupllc. All Rights Reserved.
+              © 2025 LION KING. All Rights Reserved.
             </Text>
           </Box>
           <Stack>

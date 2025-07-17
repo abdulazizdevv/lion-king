@@ -15,7 +15,7 @@ const knowDatas = [
   },
   {
     title: '02',
-    text: 'At GFS GROUP, you’re not just a number — you’re part of a team that values your time, your skills, and your life on and off the road.',
+    text: 'At LION KING GROUP, you’re not just a number — you’re part of a team that values your time, your skills, and your life on and off the road.',
   },
   {
     title: '03',
@@ -23,7 +23,7 @@ const knowDatas = [
   },
   {
     title: '04',
-    text: 'Ready for a company  that drives your success?  Join GFS GROUP today — Where Drivers Come First!',
+    text: 'Ready for a company  that drives your success?  Join LION KING GROUP today — Where Drivers Come First!',
   },
 ];
 
