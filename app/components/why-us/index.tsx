@@ -43,9 +43,7 @@ function WhyUs() {
           At Lion King Transportation, we deliver more than just rides — we
           provide safe, reliable, and comfortable service with a royal touch.
           Our professional drivers, clean vehicles, and on-time guarantee make
-          every trip smooth and stress-free. Whether it’s airport runs, daily
-          commutes, or special events, we’re the trusted choice in your
-          community.
+          every trip smooth and stress-free.
         </Text>
       </Center>
       <Center

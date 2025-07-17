@@ -19,19 +19,19 @@ const testimonials = [
   },
   {
     id: 3,
-    name: 'JASUR',
+    name: 'ROBERT',
     review:
       'The service is top notch. My shipments arrive on time, even when they go through several countries. LION KING is a reliable partner.',
   },
   {
     id: 4,
-    name: 'DMITRIY',
+    name: 'MICHAEL',
     review:
       "The best service I've used so far. I can track everything and I always get notified before the courier arrives.",
   },
   {
     id: 5,
-    name: 'FAZLIDDIN',
+    name: 'DANIEL',
     review:
       'The support team speaks clearly and answers with respect. Everything was arranged fast, and delivery came on time. I trust LION KING with no doubts!',
   },
