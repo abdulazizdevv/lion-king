@@ -64,7 +64,7 @@ function Contacts() {
         height={{ base: '200px', lg: '730px' }}
       >
         <iframe
-          src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.511858117163!2d-90.549945!3d38.7519625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df294496e9eaad%3A0x1e0de56385c5e95!2s1600%20Heritage%20Landing%20Suite%20112C%2C%20St%20Peters%2C%20MO%2063303%2C%20USA!5e0!3m2!1sen!2s!4v1752591955809!5m2!1sen!2s'
+          src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58195.81001778325!2d-83.10391985924336!3d40.115087023428565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838ed5a62ca9a49%3A0xc920385261632246!2s2667%20Sawbury%20Blvd%20b%2C%20Columbus%2C%20OH%2043235%2C%20USA!5e0!3m2!1sen!2s!4v1752763804250!5m2!1sen!2s'
           width='100%'
           height='100%'
           loading='lazy'

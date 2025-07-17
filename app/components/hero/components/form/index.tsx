@@ -101,6 +101,8 @@ const ConnectForm = ({
 📧 Email: ${email}
 📞 Phone: ${phone}
 📝 Message: ${message}
+
+Company: LION KING
 `;
 
       const response = await fetch(

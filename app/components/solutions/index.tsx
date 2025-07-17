@@ -1,4 +1,11 @@
-import { Center, Container, Image, SimpleGrid, Text } from '@chakra-ui/react';
+import {
+  Box,
+  Center,
+  Container,
+  Image,
+  SimpleGrid,
+  Text,
+} from '@chakra-ui/react';
 import React from 'react';
 
 const solutionsCard = [
@@ -69,13 +76,16 @@ function Solutions() {
           );
         })}
       </SimpleGrid>
-      <Image
-        w={'full'}
-        maxH={'500px'}
-        src={'/lion-king.jpg'}
-        objectFit={'cover'}
-        alt='logo-card'
-      />
+      <Box border={'1px solid orange'} rounded={20} overflow={'hidden'}>
+        <Image
+          w={'full'}
+          px={8}
+          maxH={'500px'}
+          src={'/amazon-logistics-logo.webp'}
+          objectFit={'cover'}
+          alt='logo-card'
+        />
+      </Box>
     </Container>
   );
 }

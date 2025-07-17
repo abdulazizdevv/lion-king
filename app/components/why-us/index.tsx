@@ -53,7 +53,7 @@ function WhyUs() {
         rounded={{ base: 8, lg: 30 }}
         gap={{ base: '40px', lg: '150px' }}
       >
-        <Text fontSize={{ base: 87, lg: 340 }}>5+</Text>
+        <Text fontSize={{ base: 87, lg: 340 }}>1+</Text>
         <Text fontSize={{ base: 20, lg: 80 }}>
           YEARS OF <br /> EXCELLENT <br /> SERVICE
         </Text>

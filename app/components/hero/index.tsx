@@ -7,7 +7,6 @@ import {
   Heading,
   HStack,
   Link,
-  Span,
   Stack,
   Text,
 } from '@chakra-ui/react';
@@ -50,18 +49,20 @@ function Hero() {
                   fontSize={{ base: 26, lg: 79 }}
                   lineHeight={{ base: '38px', lg: '95px' }}
                 >
-                  General <Span color={'red'}>Freight</Span> <br />
-                  Solutions
+                  Power, Precision, <br /> and Performance
                 </Heading>
                 <Text
                   maxW={'614px'}
                   color={'light'}
                   fontSize={{ base: '10px', lg: '22px' }}
                 >
-                  GFS – General Freight Solutions offers reliable loads, fair
-                  rates, and steady support to keep drivers moving and earning.
-                  Drive with a team that values your time, effort, and
-                  independence.
+                  At Lion King Transportation, we proudly partner with Amazon to
+                  deliver fast, secure, and reliable freight across the nation.
+                  Built on strength, leadership, and commitment, we bring
+                  top-tier service to every mile. From last-mile to long-haul,
+                  our modern fleet and skilled drivers ensure every shipment
+                  arrives safely and on time. We don’t just move freight — we
+                  lead the way.
                 </Text>
                 <Button
                   w={'full'}

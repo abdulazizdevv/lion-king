@@ -64,31 +64,31 @@ export default function Footer() {
               Contacts
             </Text>
             <Stack mt={{ base: 7, lg: '50px' }} gap={{ base: 5, lg: 8 }}>
-              <Link
+              {/* <Link
                 href='tel:6364421334'
                 color={'red'}
                 fontWeight={'bold'}
                 fontSize={{ base: 13, lg: 24 }}
               >
                 (636)-442-1334
-              </Link>
+              </Link> */}
               <Link
-                href='tel:3144511111'
+                href='tel:6176650707'
                 fontWeight={'bold'}
                 color={'red'}
                 fontSize={{ base: 13, lg: 24 }}
               >
-                (314) 451-1111
+                617-665-0707
               </Link>
               <Box>
                 <Text fontWeight={'semibold'} fontSize={{ base: 13, lg: 24 }}>
                   Email:
                 </Text>
                 <Link
-                  href='mailto:hr@gfs-groupllc.com'
+                  href='mailto:lionking.transport.885@gmail.com'
                   fontSize={{ base: 13, lg: 24 }}
                 >
-                  hr@gfs-groupllc.com
+                  lionking.transport.885@gmail.com
                 </Link>
               </Box>
             </Stack>
@@ -108,7 +108,7 @@ export default function Footer() {
                 height={{ base: '101px', lg: '186px' }}
               >
                 <iframe
-                  src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.511858117163!2d-90.549945!3d38.7519625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df294496e9eaad%3A0x1e0de56385c5e95!2s1600%20Heritage%20Landing%20Suite%20112C%2C%20St%20Peters%2C%20MO%2063303%2C%20USA!5e0!3m2!1sen!2s!4v1752591955809!5m2!1sen!2s'
+                  src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58195.81001778325!2d-83.10391985924336!3d40.115087023428565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838ed5a62ca9a49%3A0xc920385261632246!2s2667%20Sawbury%20Blvd%20b%2C%20Columbus%2C%20OH%2043235%2C%20USA!5e0!3m2!1sen!2s!4v1752763804250!5m2!1sen!2s'
                   width='100%'
                   height='100%'
                   loading='lazy'
