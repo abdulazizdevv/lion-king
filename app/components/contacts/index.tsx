@@ -16,15 +16,15 @@ import { LuClock3 } from 'react-icons/lu';
 
 const benifitCards = [
   {
-    title: '(636)-442-1334',
+    title: '617-665-0707',
     icon: IoCallOutline,
   },
   {
-    title: 'hr@gfs-groupllc.com',
+    title: 'lionking.transport.885@gmail.com',
     icon: MdOutlineMailOutline,
   },
   {
-    title: '1600 Heritage Landing Suite 112C, Saint Peters, MO',
+    title: '2667 SAWBURY BLVD SUITE B COLUMBUS, OH 43235',
     icon: GrLocation,
   },
   {

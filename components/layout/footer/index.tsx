@@ -120,7 +120,7 @@ export default function Footer() {
                 maxW={{ base: '186px', lg: '343px' }}
                 fontSize={{ base: 11, lg: 18 }}
               >
-                1600 Heritage Landing Suite 112C, Saint Peters, MO
+                2667 SAWBURY BLVD SUITE B COLUMBUS, OH 43235{' '}
               </Text>
             </Stack>
           </Stack>
