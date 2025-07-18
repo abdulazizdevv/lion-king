@@ -9,13 +9,13 @@ const testimonials = [
     id: 1,
     name: 'JOHN',
     review:
-      'Smooth process from start to finish. I got real-time updates and my package arrived earlier than expected. LION KING never fails.',
+      "I've been with this company for over than a  year, and it's been a game-changer for my business. They treat owner-operators with respect, keep the communication open, and make sure you're never sitting without a load. The dispatch  team actually listens and works with you — that alone sets them apart.",
   },
   {
     id: 2,
     name: 'ANNA',
     review:
-      'Loved how easy it was to schedule my delivery. They even confirmed the time by phone — super professional team!',
+      'What I appreciate most is their honesty. From day one, they were upfront about rates, routes, and expectations. No surprises, just solid work and steady pay. That kind of transparency is hard to find in this industry',
   },
   {
     id: 3,
@@ -27,13 +27,13 @@ const testimonials = [
     id: 4,
     name: 'MICHAEL',
     review:
-      "The best service I've used so far. I can track everything and I always get notified before the courier arrives.",
+      'The dispatch team is professional and easy to work with — they get that we’re out here trying to run a business, not just clock hours. They plan well, respect my time, and make sure I get home when I ask. That kind of flexibility is why I’ve stuck around.',
   },
   {
     id: 5,
     name: 'DANIEL',
     review:
-      'The support team speaks clearly and answers with respect. Everything was arranged fast, and delivery came on time. I trust LION KING with no doubts!',
+      'I’ve worked with a few different carriers in my time, and this is the first one that truly delivered on their promises. On-time pay, no forced dispatch, and real support when issues come up. They’ve earned my loyalty.',
   },
   {
     id: 6,
