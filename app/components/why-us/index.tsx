@@ -1,11 +1,14 @@
+'use client';
 import {
+  Box,
   Center,
   Container,
-  SimpleGrid,
+  HStack,
   Span,
   Stack,
   Text,
 } from '@chakra-ui/react';
+import { keyframes } from '@emotion/react';
 import React from 'react';
 
 const knowDatas = [
@@ -26,7 +29,14 @@ const knowDatas = [
     text: 'Ready for a company  that drives your success?  Join LION KING GROUP today — Where Drivers Come First!',
   },
 ];
-
+const scroll = keyframes`
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+`;
 function WhyUs() {
   return (
     <Container maxW={'1360px'}>
@@ -58,22 +68,48 @@ function WhyUs() {
           YEARS OF <br /> EXCELLENT <br /> SERVICE
         </Text>
       </Center>
-      <SimpleGrid
-        pt={{ base: '56px', lg: '140px' }}
-        gap={{ base: '10px', lg: 6 }}
-        columns={{ base: 2, lg: 4 }}
+      <Box
+        overflow={'hidden'}
+        w={'full'}
+        css={{
+          '&::-webkit-scrollbar': {
+            display: 'none',
+          },
+          '-ms-overflow-style': 'none',
+          'scrollbar-width': 'none',
+        }}
       >
-        {knowDatas?.map((el) => (
-          <Stack key={el.title} alignItems={'center'} color={'primary'}>
-            <Text fontWeight={500} fontSize={{ base: 34, lg: 63 }}>
-              {el?.title}
-            </Text>
-            <Text textAlign={'center'} fontSize={{ base: 11, lg: 21 }}>
-              {el?.text}
-            </Text>
-          </Stack>
-        ))}
-      </SimpleGrid>
+        <HStack
+          py={{ base: '27px', lg: '70px' }}
+          gap={4}
+          pb={4}
+          align='stretch'
+          css={{
+            display: 'flex',
+            width: 'max-content',
+            animation: `${scroll} 25s linear infinite`,
+            '&:hover': {
+              animationPlayState: 'paused',
+            },
+          }}
+        >
+          {[...knowDatas, ...knowDatas]?.map((el) => (
+            <Stack
+              w={'380px'}
+              key={el.title}
+              alignItems={'center'}
+              color={'primary'}
+            >
+              <Text fontWeight={500} fontSize={{ base: 34, lg: 63 }}>
+                {el?.title}
+              </Text>
+              <Text textAlign={'center'} fontSize={{ base: 11, lg: 21 }}>
+                {el?.text}
+              </Text>
+            </Stack>
+          ))}
+        </HStack>
+      </Box>
     </Container>
   );
 }

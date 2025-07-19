@@ -61,10 +61,12 @@ function Partners() {
             w='full'
             border={'1px solid orange'}
             rounded='2.5rem'
+            overflow={'hidden'}
             position='relative'
           >
             <Box
               w={'full'}
+              overflow={'hidden'}
               zIndex={99}
               rounded={{ base: 10, lg: 40 }}
               bg={'light'}
@@ -72,10 +74,9 @@ function Partners() {
               <Image
                 w={{ base: 'full', xl: '1360px' }}
                 h={{ base: 'full', xl: '886px' }}
-                src={'/amazon-logistics-logo.webp'}
+                src={'/icons/amazon-logo.svg'}
                 alt='all-partners'
                 objectFit={'contain'}
-                px={8}
               />
             </Box>
           </Box>
