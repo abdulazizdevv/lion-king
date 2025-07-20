@@ -28,6 +28,18 @@ const knowDatas = [
     title: '04',
     text: 'Ready for a company  that drives your success?  Join LION KING GROUP today — Where Drivers Come First!',
   },
+  {
+    title: '05',
+    text: 'Drive with confidence knowing you’re supported by well-maintained, late-model trucks that keep you safe and on schedule.',
+  },
+  {
+    title: '06',
+    text: 'We help you plan your routes and home time to ensure you spend more quality time with your family while still maximizing your income.',
+  },
+  {
+    title: '07',
+    text: 'Get paid on time, every time — with our reliable weekly settlements, you can count on consistent cash flow for your hard work.',
+  },
 ];
 const scroll = keyframes`
   0% {
@@ -81,7 +93,7 @@ function WhyUs() {
       >
         <HStack
           py={{ base: '27px', lg: '70px' }}
-          gap={4}
+          gap={5}
           pb={4}
           align='stretch'
           css={{
@@ -95,7 +107,7 @@ function WhyUs() {
         >
           {[...knowDatas, ...knowDatas]?.map((el) => (
             <Stack
-              w={'380px'}
+              w={'350px'}
               key={el.title}
               alignItems={'center'}
               color={'primary'}
